@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.bgimg {
+  background-image: url("SEC.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;   
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+
+}
+
+.form-box {
+    
+  width: 400px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-height: 90vh;
+  overflow-y: auto;
+  color: rgb(255, 255, 255);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.captcha {
+  background: #a4a4a4;
+  text-align: center;
+  font-size: larger;
+}
+
+select {
+  width: 48%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 7%;
+}
+
+label {
+  font-size: 13px;
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+  font-size: 13px;
+  margin: 10px 0;
+}
+
+button {
+  width: 50%;
+  padding: 10px;
+  background: #e2c231;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+p {
+  text-align: center;
+  font-size: 13px;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}
